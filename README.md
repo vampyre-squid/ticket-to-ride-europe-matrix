@@ -1,5 +1,5 @@
-# Ticket to Ride Europe Adjacency Matrix
-An [adjacency matrix](http://faculty.ucr.edu/~hanneman/nettext/C5_%20Matrices.html) representing connections (edges/links/ties) between cities (nodes/vertices) in the board game Ticket to Ride Europe. For this matrix, I assume 4-5 players and naïvely calculate tie strength as 1 (tie exists), 2 (parallel tracks), or blank (no tie). In the future, I hope to calculate tie strength using a method that is closer to the ground truth of play by accounting for the number of cards required to form a given tie on the board.
+# Ticket to Ride: Europe's Adjacency Matrix
+An [adjacency matrix](http://faculty.ucr.edu/~hanneman/nettext/C5_%20Matrices.html) representing connections (edges/links/ties) between cities (nodes/vertices) in the board game Ticket to Ride: Europe. For this matrix, I assume 4-5 players and naïvely calculate tie strength as 1 (tie exists), 2 (parallel tracks), or blank (no tie). In the future, I hope to calculate tie strength using a method that is closer to the ground truth of play by accounting for the number of cards required to form a given tie on the board.
 
 Both adjacency matrix formats have been tested - .csv in Gephi and .mat in Cytoscape using aMatReader.
 
